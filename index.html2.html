@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset ="UTF=8"/>
+        <link rel="stylesheet" href="./style.css2.css" />
+        <title>Crushin contact page</title>
+        <img class='logo' src='thumbnail_Cookie.png'>
+
+    </head>
+        <body>
+            <h1>Contact Us</h1>
+            <h2>Kelsie Creamer</h2>
+            <h3>Located in Plant City, Florida</h3>
+            <h1>Complete the form for Cookie Orders</h1>
+                
+            <section>
+              
+                <form method='post' action=''>
+                    
+                    <span>Shipping or Pick-up:</span>
+                        <input id='shipping' type='radio' name='answer' value='shipping' required>
+                            <label for='shipping'>Shipping</label>
+                        <input id='pick-up' type='radio' name='answer' value='pick-up'>
+                            <label for='pick-up'>Pick-up</label>
+                        <br>
+                    <label for='first-name'>First Name:</label>
+                        <input type='text' name='first-name' required>
+                        <br>
+                    <label for='last-name'>Last Name:</label>
+                        <input type='text' name='last-name' required>
+                        <br>
+                    <label for='address'>Street Address:</label>
+                        <input type='text' name='address' required>
+                        <br>
+                    <label for='city'>City:</label>
+                        <input type='text' name='city' required>
+                        <br>
+                    <label for='state'>State:</label>
+                        <input type='text' name='state' required>
+                        <br>
+                   
+                        <label for='cookie-request'>Cookie Request:</label>
+                            <input id='cookie-request' name='cookie-request' type='text' required list='cookie-choices'>                                
+                        <datalist id='cookie-choices'>
+                            <option value='Average Joe (Chocolate Chip)'></option>
+                            <option value='Strawberry with Creamcheese filling'></option>
+                            <option value='Red Velvet'></option>
+                            <option value='Cookies n Cream'></option>
+                        </datalist>
+                        <br>
+                        <label for='cookie-amount'>Cookie Amount:</label>
+                            <input id='cookie-amount' name='cookie-amount' type='text' required list='cookie-number'>                                
+                        <datalist id='cookie-number'>
+                            <option value='#1 cookie for $5'></option>
+                            <option value='#4 cookies for $19'></option>
+                            <option value='#6 cookies for $27'></option>
+                            <option value='#8 cookies for $34'></option>
+                            <option value='#12 cookies for $48'></option>
+                        </datalist>
+                        <h3>Special Requests</h3>
+                    <textarea id='message' name='message' rows='8' cols='40'></textarea>  
+                        <br>                
+                    </form>
+                    <form action="" method=""></form>
+                    
+                    <input type='submit' value='Submit for Cookie Order'>
+
+            </section>
+                <h3>*These Crushable Cookies are not gluten free*<br>*And may contain Peanuts*</h3>
+
+
+        </body>
+
+</html>

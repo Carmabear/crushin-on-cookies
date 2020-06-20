@@ -1,0 +1,40 @@
+body {
+    border-style:solid;
+    border-width:10px;
+    border-color:white;
+    border-radius:15px;
+    background-color:#e4c4cc;
+    text-align:center;
+    padding:10px;
+}
+h1 {
+    color:white;
+    font-weight:bold;
+    font-size:30px;
+}
+h2 {
+    color:white;
+}
+ul {
+    text-align:center;
+    list-style-type:none;
+    color:white;
+    font-size:30px;
+}
+.images {
+    border-style:solid;
+    border-width:10px;
+    border-color:white;
+    border-radius:15px;
+    
+}
+.container2 {
+    flex-wrap:wrap;
+    padding:10px;
+}
+.price.box {
+    border-style:solid;
+    border-width:10px;
+    border-color:white;
+    border-radius:15px;
+}
